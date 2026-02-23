@@ -1,0 +1,5 @@
+{
+  "name": "Siam Savor - Modern Thai Cuisine",
+  "description": "A premium Thai restaurant offering contemporary Thai dishes in a warm, elegant atmosphere.",
+  "requestFramePermissions": ["geolocation"]
+}
