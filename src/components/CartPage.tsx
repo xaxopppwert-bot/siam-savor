@@ -41,7 +41,7 @@ export default function CartPage() {
                     <tr key={item.id}>
                       <td className="px-4">
                         <div className="d-flex align-items-center gap-3">
-                          <img src={item.image} alt={item.name} className="rounded-3 object-fit-cover" style={{ width: '60px', height: '60px' }} />
+                          <img src={item.image} alt={item.name} className="rounded-3 object-fit-cover" style={{ width: '60px', height: '60px' }} referrerPolicy="no-referrer" />
                           <div>
                             <h6 className="fw-bold mb-0">{item.name}</h6>
                           </div>

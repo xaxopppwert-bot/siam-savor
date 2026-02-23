@@ -11,6 +11,7 @@ export default function AboutSection() {
                 src="https://picsum.photos/seed/chef/800/1000"
                 alt="Our Chef"
                 className="img-fluid rounded-4 shadow-lg"
+                referrerPolicy="no-referrer"
               />
               <div className="position-absolute bottom-0 end-0 bg-white p-4 rounded-4 shadow-lg m-4 d-none d-md-block" style={{ maxWidth: '200px' }}>
                 <h4 className="fw-bold mb-0">15+</h4>

@@ -89,7 +89,7 @@ export default function CheckoutPage() {
             <div className="flex-grow-1 overflow-auto mb-4" style={{ maxHeight: '400px' }}>
               {cart.map(item => (
                 <div key={item.id} className="d-flex align-items-center gap-3 mb-3 pb-3 border-bottom">
-                  <img src={item.image} alt={item.name} className="rounded-3 object-fit-cover" style={{ width: '50px', height: '50px' }} />
+                  <img src={item.image} alt={item.name} className="rounded-3 object-fit-cover" style={{ width: '50px', height: '50px' }} referrerPolicy="no-referrer" />
                   <div className="flex-grow-1">
                     <h6 className="fw-bold mb-0">{item.name}</h6>
                     <small className="text-muted">จำนวน: {item.quantity}</small>

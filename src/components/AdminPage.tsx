@@ -167,7 +167,7 @@ export default function AdminPage() {
                   {products.map(product => (
                     <tr key={product.id}>
                       <td className="px-4">
-                        <img src={product.image} alt={product.name} className="rounded-3 object-fit-cover" style={{ width: '50px', height: '50px' }} />
+                        <img src={product.image} alt={product.name} className="rounded-3 object-fit-cover" style={{ width: '50px', height: '50px' }} referrerPolicy="no-referrer" />
                       </td>
                       <td className="fw-bold">{product.name}</td>
                       <td>฿{product.price}</td>

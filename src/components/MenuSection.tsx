@@ -87,6 +87,7 @@ export default function MenuSection() {
                       src={item.image}
                       className="card-img-top w-100 h-100 object-fit-cover"
                       alt={item.name}
+                      referrerPolicy="no-referrer"
                     />
                     <span className="position-absolute top-0 end-0 m-3 badge bg-white text-dark p-2 shadow-sm">
                       ฿{item.price}

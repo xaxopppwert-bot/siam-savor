@@ -17,7 +17,7 @@ export default function PromotionSection() {
               <div className="card promo-card h-100">
                 <div className="row g-0 h-100">
                   <div className="col-md-5">
-                    <img src={promo.image} className="img-fluid h-100 object-fit-cover" alt={promo.title} />
+                    <img src={promo.image} className="img-fluid h-100 object-fit-cover" alt={promo.title} referrerPolicy="no-referrer" />
                   </div>
                   <div className="col-md-7">
                     <div className="card-body p-4 d-flex flex-column justify-content-center h-100">
